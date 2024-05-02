@@ -44,7 +44,7 @@ def item_builder(item_name: str, item_description: str, item_price: float, item_
     }
     # returns that item object
     return item
-
+print("adding a print statement - Gareth")
 
 @app.before_first_request
 def create_table():
