@@ -29,6 +29,7 @@ db.init_app(app)
 # global variable for id (module private; also avoids standard library function reference collision)
 _id = 1
 
+
 def item_builder(item_name: str, item_description: str, item_price: float, item_id: int) -> dict:
     """
     Function to build an item
@@ -44,7 +45,6 @@ def item_builder(item_name: str, item_description: str, item_price: float, item_
     # returns that item object
     return item
 
-print("adding a print statement - Jenny")
 
 @app.before_first_request
 def create_table():
