@@ -1,4 +1,13 @@
-# REST API starter
+#
+
+
+we hope we trust we want this to work 
+In Money We Trust - Dan was here!
+
+
+THIS IS A TEST WITH A NEW CHANGE BY BR 
+
+ REST API starter
 
 This is a Python Flask REST API, serving a simple frontend for use in LBG programs
 
